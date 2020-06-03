@@ -1,0 +1,13 @@
+.campusCardMain {
+    border: 2px;
+    border-style: solid;
+    display: grid;
+    padding :10px;
+    margin:10px;
+    grid-template-columns: auto auto ;    
+    grid-template-areas: "img|h3"
+                        ".|p "
+                        "a button";
+    border-radius:2%;
+    max-width: 40vw;
+}
